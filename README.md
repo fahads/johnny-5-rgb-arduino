@@ -1,10 +1,12 @@
 ## Using an RGB LED in a web application with Johnny Five
 
-### Step 1: hook up your LED. This is schematic is for a four pin RGB LED with a **common cathode**
+### Step 1: connect your RGB LED.
 
-<img src="https://cloud.githubusercontent.com/assets/2447940/26462261/aa20e81e-4145-11e7-9644-7115019a7056.png" width="700" />
+This diagram is for a four pin RGB LED with a **common cathode** (the longest pin on the LED).
 
 The jumper cables correspond to the LED's colors (R - 6, G - 5, B - 3).
+
+<img src="https://cloud.githubusercontent.com/assets/2447940/26462261/aa20e81e-4145-11e7-9644-7115019a7056.png" width="700" />
 
 ### Step 2: connect your Arduino to your computer and upload the _Firmata_ firmware, which is used by Johnny-Five to communicate with the board.
 
@@ -21,4 +23,4 @@ The jumper cables correspond to the LED's colors (R - 6, G - 5, B - 3).
 
 ### Step 4: Go to `localhost:3000` in your web browser and try it out!
 
-* The client is sending the hexadecimal color values to the server using **Socket.io**, and the server is then setting the color and sending it to the Arduino board.
+The client is sending the hexadecimal color values to the server using **Socket.io**, and the server is then setting the color and sending it to the Arduino board.
