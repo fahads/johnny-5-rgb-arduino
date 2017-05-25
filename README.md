@@ -6,7 +6,7 @@ This diagram is for a four pin RGB LED with a **common cathode** (the longest pi
 
 The jumper cables correspond to the LED's colors (R - 6, G - 5, B - 3).
 
-<img src="https://cloud.githubusercontent.com/assets/2447940/26462261/aa20e81e-4145-11e7-9644-7115019a7056.png" width="700" />
+<img src="https://cloud.githubusercontent.com/assets/2447940/26462261/aa20e81e-4145-11e7-9644-7115019a7056.png" width="500" />
 
 ### Step 2: connect your Arduino to your computer and upload the _Firmata_ firmware, which is used by Johnny-Five to communicate with the board.
 
