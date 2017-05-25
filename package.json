@@ -1,0 +1,22 @@
+{
+  "name": "arduino-rgb-with-johnny5",
+  "version": "1.0.0",
+  "description": "A basic application that demonstrates the use of the johnny-five library with an express server",
+  "keywords": [
+    "express",
+    "johnny five",
+    "arduino"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fahads/"
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3",
+    "johnny-five": "^0.10.13",
+    "socket.io": "^2.0.1"
+  }
+}
