@@ -24,3 +24,5 @@ The jumper cables correspond to the LED's colors (R - 6, G - 5, B - 3).
 ### Step 4: Go to `localhost:3000` in your web browser and try it out!
 
 The client is sending the hexadecimal color values to the server using **Socket.io**, and the server is then setting the color and sending it to the Arduino board.
+
+![g_20170525_1355103](https://cloud.githubusercontent.com/assets/2447940/26465795/0d915b34-4152-11e7-8faa-fec5b147b31e.gif)
