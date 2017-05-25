@@ -3,7 +3,7 @@
   var body = document.getElementById('body');
   var rgbArray = [];
   
-  // Generate RGB color arrays and pass them to hex convertor
+  // Generate RGB color arrays and pass them to hex converter
   for (var r = 0; r < 256; r += 64) {
     rgbArray[0] = r;
     for (var g = 0; g < 256; g += 64) {
